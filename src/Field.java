@@ -25,7 +25,7 @@ class Field {
         }
     }
 
-    public char[][] getArr() {
+    char[][] getArr() {
         return arr;
     }
 }
