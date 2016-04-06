@@ -9,6 +9,18 @@ class Point {
         this.z = z;
     }
 
+    public int getX() {
+        return x;
+    }
+
+    public int getY() {
+        return y;
+    }
+
+    public char getZ() {
+        return z;
+    }
+
     void draw(char arr[][]){
         arr[x][y] = z;
     }
